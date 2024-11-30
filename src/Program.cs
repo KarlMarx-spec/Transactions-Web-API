@@ -1,12 +1,14 @@
+using Transactions_Web_API.Extensions;
+using Transactions_Web_API.Interfaces;
+using Transactions_Web_API.Middlewares;
+using Transactions_Web_API.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddApiServices(builder.Configuration);
+builder.Services.AddInfrastuctureServices(builder.Configuration);
 
-//builder.Services.AddDbContext<IApplicationDBContext, PostgreDbContext>(options =>
-//				options.UseNpgsql(builder.Configuration.GetConnectionString("Database"), builder =>
-//					builder.MigrationsAssembly(typeof(PostgreDbContext).Assembly.FullName)));
+builder.Services.AddScoped<ITransactionService, TransactionService>();
 
 var app = builder.Build();
 
@@ -14,10 +16,16 @@ if (app.Environment.IsDevelopment())
 {
 	app.UseSwagger();
 	app.UseSwaggerUI();
+	app.ApplyMigrations();
 }
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
-app.Run();
+app.UseStaticFiles();
+
+app.UseStatusCodePages();
+app.UseMiddleware<ExceptionMiddleware>();
+
+await app.RunAsync();

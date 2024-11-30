@@ -1,0 +1,22 @@
+services:
+  transactions-web-api:
+    image: ${DOCKER_REGISTRY-}transactionswebapi
+    container_name: products.api
+    build:
+      context: .
+      dockerfile: src/Dockerfile
+    ports:
+      - "5050:5050"
+      - "5051:5051"
+
+  transactions-database:
+    image: postgres:latest
+    container_name: transactions-database
+    environment:
+      - POSTGRES_DB=transactions
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./.containers/products-db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432

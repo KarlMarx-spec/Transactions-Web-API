@@ -9,5 +9,7 @@ namespace Transactions_Web_API.Interfaces
 		public DatabaseFacade Database { get; }
 
 		public DbSet<Transaction> Transactions { get; set; }
+
+		Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 	}
 }
