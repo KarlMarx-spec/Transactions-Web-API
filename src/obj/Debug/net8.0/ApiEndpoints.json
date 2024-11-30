@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "Transactions_Web_API.Controllers.TransactionsController",
+    "Method": "GetTransactions",
+    "RelativePath": "Transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

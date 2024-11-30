@@ -3,8 +3,62 @@
   "WorkspaceRootPath": "D:\\github_projects\\Transactions-Web-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|Transactions-Web-API.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\github_projects\\Transactions-Web-API\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\transactions-web-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\transactions-web-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\transactions-web-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\transactions-web-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\postgredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\postgredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\transactions-web-api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\transactions-web-api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|d:\\github_projects\\transactions-web-api\\src\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B20635-FF09-4450-9344-79842499DC2C}|src\\Transactions-Web-API.csproj|solutionrelative:src\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,19 +73,187 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-29T15:03:26.607Z",
+              "WhenOpened": "2024-11-30T10:18:34.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAowNgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-30T09:31:15.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ViewState": "AgIAAKIBAAAAAAAAAAAowK4BAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-30T09:17:34.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-29T19:41:17.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transactions-Web-API",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\Transactions-Web-API.csproj",
+              "RelativeDocumentMoniker": "src\\Transactions-Web-API.csproj",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\Transactions-Web-API.csproj",
+              "RelativeToolTip": "src\\Transactions-Web-API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T19:38:30.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Transactions-Web-API.csproj",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\Transactions-Web-API.csproj",
+              "RelativeDocumentMoniker": "src\\Transactions-Web-API.csproj",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\Transactions-Web-API.csproj",
+              "RelativeToolTip": "src\\Transactions-Web-API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T19:38:21.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transactions-Web-API.http",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\Transactions-Web-API.http",
+              "RelativeDocumentMoniker": "src\\Transactions-Web-API.http",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\Transactions-Web-API.http",
+              "RelativeToolTip": "src\\Transactions-Web-API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-29T19:25:22.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IApplicationDBContext.cs",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\Interfaces\\IApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "src\\Interfaces\\IApplicationDBContext.cs",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\Interfaces\\IApplicationDBContext.cs",
+              "RelativeToolTip": "src\\Interfaces\\IApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T19:01:11.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\appsettings.json",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\appsettings.json",
+              "RelativeToolTip": "src\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-29T18:56:36.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PostgreDbContext.cs",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\PostgreDbContext.cs",
+              "RelativeDocumentMoniker": "src\\PostgreDbContext.cs",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\PostgreDbContext.cs",
+              "RelativeToolTip": "src\\PostgreDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:49:37.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Program.cs",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\Program.cs",
+              "RelativeToolTip": "src\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:48:20.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "src\\Entities\\Transaction.cs",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\Entities\\Transaction.cs",
+              "RelativeToolTip": "src\\Entities\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:09:18.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITransactionService.cs",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\Interfaces\\ITransactionService.cs",
+              "RelativeDocumentMoniker": "src\\Interfaces\\ITransactionService.cs",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\Interfaces\\ITransactionService.cs",
+              "RelativeToolTip": "src\\Interfaces\\ITransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:09:16.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "src\\Services\\TransactionService.cs",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\Services\\TransactionService.cs",
+              "RelativeToolTip": "src\\Services\\TransactionService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:09:13.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "D:\\github_projects\\Transactions-Web-API\\src\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "src\\Controllers\\TransactionsController.cs",
+              "ToolTip": "D:\\github_projects\\Transactions-Web-API\\src\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "src\\Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:06:04.549Z"
             }
           ]
         }
