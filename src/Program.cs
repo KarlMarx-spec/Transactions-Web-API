@@ -16,8 +16,9 @@ if (app.Environment.IsDevelopment())
 {
 	app.UseSwagger();
 	app.UseSwaggerUI();
-	app.ApplyMigrations();
 }
+
+app.ApplyMigrations();
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
@@ -27,5 +28,6 @@ app.UseStaticFiles();
 
 app.UseStatusCodePages();
 app.UseMiddleware<ExceptionMiddleware>();
+app.UseMiddleware<LoggingMiddleware>();
 
 await app.RunAsync();

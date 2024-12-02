@@ -2,7 +2,7 @@ using System.Net;
 
 namespace Transactions_Web_API.Exceptions
 {
-	public class BusinessLogicException : BaseException
+	public class BusinessLogicException : BaseBusinessException
 	{
 		public BusinessLogicException(
 			HttpStatusCode statusCode = HttpStatusCode.BadRequest,
@@ -11,7 +11,7 @@ namespace Transactions_Web_API.Exceptions
 			: base(statusCode, title, details)
 		{
 			StatusCode = statusCode;
-			Type = typeof(BusinessLogicException).ToString();
+			Type = nameof(BusinessLogicException);
 			Title = title;
 			Details = details;
 		}

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using Microsoft.EntityFrameworkCore;
 using Transactions_Web_API.Entities;
 using Transactions_Web_API.Exceptions;
@@ -23,17 +24,19 @@ namespace Transactions_Web_API.Services
 			_configuration = configuration;
 		}
 
-		public async Task<List<Transaction>> GetAllTransactionsAsync(CancellationToken ct)
+		public async Task<List<TransactionResponse>> GetAllTransactionsAsync(CancellationToken ct)
 		{
 			return await _context.Transactions
 				.AsNoTracking()
+				.ProjectTo<TransactionResponse>(_mapper.ConfigurationProvider)
 				.ToListAsync(ct);
 		}
 
-		public async Task<Transaction> GetTransactionAsync(Guid id, CancellationToken ct)
+		public async Task<TransactionResponse> GetTransactionAsync(Guid id, CancellationToken ct)
 		{
 			return await _context.Transactions
 				.AsNoTracking()
+				.ProjectTo<TransactionResponse>(_mapper.ConfigurationProvider)
 				.FirstOrDefaultAsync(x => x.Id == id, ct)
 				?? throw new EntityNotFoundException<Transaction>(id);
 		}
@@ -43,7 +46,7 @@ namespace Transactions_Web_API.Services
 			CancellationToken ct)
 		{
 			if (await _context.Transactions.CountAsync(ct) >=
-					_configuration.GetValue<int>("MaxTransactionCount"))
+					_configuration.GetValue<int>("MaxTransactionsCount"))
 			{
 				throw new BusinessLogicException(
 					title: "Достигнуто предельное количество транзакций",

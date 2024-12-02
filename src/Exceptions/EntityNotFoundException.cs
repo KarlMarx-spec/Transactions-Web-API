@@ -2,7 +2,7 @@ using System.Net;
 
 namespace Transactions_Web_API.Exceptions
 {
-	public class EntityNotFoundException : BaseException
+	public class EntityNotFoundException : BaseBusinessException
 	{
 		public EntityNotFoundException(
 			HttpStatusCode statusCode = HttpStatusCode.NotFound,
@@ -11,7 +11,7 @@ namespace Transactions_Web_API.Exceptions
 			: base(statusCode, title, details)
 		{
 			StatusCode = statusCode;
-			Type = typeof(EntityNotFoundException).ToString();
+			Type = nameof(EntityNotFoundException);
 			Title = title;
 			Details = details;
 		}

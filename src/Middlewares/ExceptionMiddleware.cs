@@ -16,14 +16,13 @@ namespace Transactions_Web_API.Middlewares
 			_next = next;
 		}
 
-		public async Task InvokeAsync(
-			HttpContext httpContext)
+		public async Task InvokeAsync(HttpContext httpContext)
 		{
 			try
 			{
 				await _next(httpContext);
 			}
-			catch (BaseException ex)
+			catch (BaseBusinessException ex)
 			{
 				await HandleExceptionAsync(httpContext, ex);
 			}
@@ -31,9 +30,9 @@ namespace Transactions_Web_API.Middlewares
 
 		private static async Task HandleExceptionAsync(
 			HttpContext httpContext,
-			BaseException exception)
+			BaseBusinessException exception)
 		{
-			httpContext.Response.StatusCode = GetStatusCode(exception);
+			httpContext.Response.StatusCode = (int)exception.StatusCode;
 
 			httpContext.Response.ContentType = "application/json";
 
@@ -41,7 +40,7 @@ namespace Transactions_Web_API.Middlewares
 
 			var problemDetails = new ProblemDetails
 			{
-				Status = GetStatusCode(exception),
+				Status = (int)exception.StatusCode,
 				Title = exception.Title,
 				Type = exception.GetType().Name,
 				Detail = exception.Details,
@@ -54,16 +53,6 @@ namespace Transactions_Web_API.Middlewares
 			};
 
 			await httpContext.Response.WriteAsJsonAsync(problemDetails);
-		}
-
-		private static int GetStatusCode(BaseException exception)
-		{
-			return exception switch
-			{
-				BusinessLogicException businessLogicException => (int)businessLogicException.StatusCode,
-				EntityNotFoundException entityNotFoundException => (int)entityNotFoundException.StatusCode,
-				_ => StatusCodes.Status500InternalServerError
-			};
 		}
 	}
 }

@@ -8,6 +8,8 @@ services:
     ports:
       - "5050:5050"
       - "5051:5051"
+    depends_on:
+      - "transactions-database"
 
   transactions-database:
     image: postgres:latest

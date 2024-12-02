@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel;
 using Transactions_Web_API.Interfaces;
-using Transactions_Web_API.Entities;
 using Transactions_Web_API.Models.API.Requests;
 using Transactions_Web_API.Models.API.Responses;
 
@@ -12,7 +10,7 @@ namespace Transactions_Web_API.Controllers
 	/// Транзакции
 	/// </summary>
 	[ApiController]
-	[Route("[controller]")]
+	[Route("/api/v1/[controller]")]
 	public class TransactionsController : ControllerBase
 	{
 		private readonly ITransactionService _transactionService;
@@ -28,7 +26,7 @@ namespace Transactions_Web_API.Controllers
 		/// <param name="cancellationToken"></param>
 		/// <returns>Список транзакций</returns>
 		[HttpGet]
-		[ProducesResponseType(200, Type = typeof(List<Transaction>))]
+		[ProducesResponseType(200, Type = typeof(List<TransactionResponse>))]
 		public async Task<IActionResult> GetTransactions(CancellationToken cancellationToken)
 		{
 			return Ok(await _transactionService.GetAllTransactionsAsync(cancellationToken));
